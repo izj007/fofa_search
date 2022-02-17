@@ -12,3 +12,17 @@ D:\Codes\C#\fofa\fofa\bin\Debug\Newtonsoft.Json.xml
 D:\Codes\C#\fofa\fofa\obj\Debug\fofa.csproj.CopyComplete
 D:\Codes\C#\fofa\fofa\bin\Debug\fofa.exe.config
 D:\Codes\C#\fofa\fofa\obj\Debug\fofa.csproj.AssemblyReference.cache
+D:\Codes\C#\fofa_search\fofa\bin\Debug\fofa.exe.config
+D:\Codes\C#\fofa_search\fofa\bin\Debug\fofa.exe
+D:\Codes\C#\fofa_search\fofa\bin\Debug\fofa.pdb
+D:\Codes\C#\fofa_search\fofa\bin\Debug\Newtonsoft.Json.dll
+D:\Codes\C#\fofa_search\fofa\bin\Debug\Newtonsoft.Json.xml
+D:\Codes\C#\fofa_search\fofa\obj\Debug\fofa.csproj.AssemblyReference.cache
+D:\Codes\C#\fofa_search\fofa\obj\Debug\fofa.Form1.resources
+D:\Codes\C#\fofa_search\fofa\obj\Debug\fofa.PopForm.resources
+D:\Codes\C#\fofa_search\fofa\obj\Debug\fofa.Properties.Resources.resources
+D:\Codes\C#\fofa_search\fofa\obj\Debug\fofa.csproj.GenerateResource.cache
+D:\Codes\C#\fofa_search\fofa\obj\Debug\fofa.csproj.CoreCompileInputs.cache
+D:\Codes\C#\fofa_search\fofa\obj\Debug\fofa.csproj.CopyComplete
+D:\Codes\C#\fofa_search\fofa\obj\Debug\fofa.exe
+D:\Codes\C#\fofa_search\fofa\obj\Debug\fofa.pdb
