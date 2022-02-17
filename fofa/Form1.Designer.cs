@@ -387,7 +387,7 @@ namespace fofa
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Fofa搜索工具 v1.3 by烛照.Master";
+            this.Text = "Fofa搜索工具 v1.4 by烛照.Master";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
             this.groupBox1.ResumeLayout(false);

@@ -11,3 +11,17 @@ D:\Codes\C#\fofa\fofa\obj\Release\fofa.csproj.CoreCompileInputs.cache
 D:\Codes\C#\fofa\fofa\obj\Release\fofa.csproj.CopyComplete
 D:\Codes\C#\fofa\fofa\obj\Release\fofa.exe
 D:\Codes\C#\fofa\fofa\obj\Release\fofa.pdb
+D:\Codes\C#\fofa_search\fofa\bin\Release\fofa.exe.config
+D:\Codes\C#\fofa_search\fofa\bin\Release\fofa.exe
+D:\Codes\C#\fofa_search\fofa\bin\Release\fofa.pdb
+D:\Codes\C#\fofa_search\fofa\bin\Release\Newtonsoft.Json.dll
+D:\Codes\C#\fofa_search\fofa\bin\Release\Newtonsoft.Json.xml
+D:\Codes\C#\fofa_search\fofa\obj\Release\fofa.csproj.AssemblyReference.cache
+D:\Codes\C#\fofa_search\fofa\obj\Release\fofa.Form1.resources
+D:\Codes\C#\fofa_search\fofa\obj\Release\fofa.PopForm.resources
+D:\Codes\C#\fofa_search\fofa\obj\Release\fofa.Properties.Resources.resources
+D:\Codes\C#\fofa_search\fofa\obj\Release\fofa.csproj.GenerateResource.cache
+D:\Codes\C#\fofa_search\fofa\obj\Release\fofa.csproj.CoreCompileInputs.cache
+D:\Codes\C#\fofa_search\fofa\obj\Release\fofa.csproj.CopyComplete
+D:\Codes\C#\fofa_search\fofa\obj\Release\fofa.exe
+D:\Codes\C#\fofa_search\fofa\obj\Release\fofa.pdb

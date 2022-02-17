@@ -409,9 +409,10 @@ namespace fofa
 
         private void 打开ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            foreach(ListViewItem item in lv_result.SelectedItems)
+            string BrowserPath = GetDefaultWebBrowserFilePath();
+            foreach (ListViewItem item in lv_result.SelectedItems)
             {
-                System.Diagnostics.Process.Start("explorer.exe", item.SubItems[1].Text);
+                System.Diagnostics.Process.Start(BrowserPath, item.SubItems[1].Text);
             }
         }
 
@@ -435,9 +436,10 @@ namespace fofa
 
         private void lv_result_MouseDoubleClick(object sender, MouseEventArgs e)
         {
+            string BrowserPath = GetDefaultWebBrowserFilePath();
             foreach (ListViewItem item in lv_result.SelectedItems)
             {
-                System.Diagnostics.Process.Start("explorer.exe", item.SubItems[1].Text);
+                System.Diagnostics.Process.Start(BrowserPath, item.SubItems[1].Text);
             }
         }
 
@@ -445,5 +447,33 @@ namespace fofa
         {
             lb_keyword.Items.RemoveAt(lb_keyword.SelectedIndex);
         }
+
+        			/// <summary>
+         /// 获取默认浏览器的路径
+         /// </summary>
+         /// <returns></returns>
+         public String GetDefaultWebBrowserFilePath()
+         {
+             string _BrowserKey1 = @"Software\Clients\StartmenuInternet\";
+             string _BrowserKey2 = @"\shell\open\command";
+ 
+             RegistryKey _RegistryKey = Registry.CurrentUser.OpenSubKey(_BrowserKey1, false);
+             if (_RegistryKey == null)
+                 _RegistryKey = Registry.LocalMachine.OpenSubKey(_BrowserKey1, false);
+            String _Result = _RegistryKey.GetSubKeyNames()[0];
+             _RegistryKey.Close();
+            string _BrowserKey = _BrowserKey1 + _Result + _BrowserKey2;
+             _RegistryKey = Registry.CurrentUser.OpenSubKey(_BrowserKey);
+             _Result = _RegistryKey.GetValue("").ToString();
+             _RegistryKey.Close();
+ 
+             if (_Result.Contains("\""))
+             {
+                 _Result = _Result.TrimStart('"');
+                 _Result = _Result.Substring(0, _Result.IndexOf('"'));
+             }
+             return _Result;
+         }
+
     }
 }
